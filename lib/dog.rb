@@ -6,11 +6,11 @@ class Dog
   @@all = []
   
   def initialize(name, owner)
-    @name = name 
-    @owner = owner
+    @name = name
     @mood = "nervous"
-    @@all << self 
-  end 
+    @owner = owner
+    @@all << self
+  end
   
   def self.all 
     @all 
